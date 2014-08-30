@@ -6,3 +6,10 @@
 
 # R data files from past sessions
 .Rdata
+
+#+
+# Ignore Emacs backups
+
+*.~*~ 
+
+#+
