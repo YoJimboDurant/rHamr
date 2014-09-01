@@ -9,10 +9,14 @@ Description: This package is written for ham radio enthusuasts that which to
     apply data science to their log book.
 License: GPL2
 Depends:
-    R(>= 3.0.1)
+    R(>= 3.0.1),plyr,
+    ggplot2,
+    stringr,
+    RCurl,lubridate,XML
 Imports:
     plyr,
     ggplot2,
     stringr,
     RCurl,
-    XML
+    XML,
+    lubridate

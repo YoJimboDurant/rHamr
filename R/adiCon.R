@@ -1,3 +1,5 @@
+#' @title adiCon
+#' @description Function used to deparse a line of ADIF 2 called by readAdi.
 #' @export
 adiCon <- function(adiLine){ 
   adiData <- str_match_all(adiLine, ">(.*?)<")
